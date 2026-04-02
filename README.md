@@ -67,6 +67,9 @@ sales-dashboard/
 
 ---
 
+## Weblink
+* streamlit: https://sales-dashboard-project-9mfbvgh3ue2rqrqes87fhn.streamlit.app/
+
 ##  Author
 
 Tharun Reddy
