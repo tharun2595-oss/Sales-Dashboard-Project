@@ -1,8 +1,12 @@
 import streamlit as st
 import pandas as pd
+import os
 
 # Load data
-df = pd.read_csv("outputs/cleaned_data.csv")
+
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+file_path = os.path.join(BASE_DIR,"outputs", "cleaned_data.csv")
+df = pd.read_csv(file_path)
 
 # Title
 st.title("📊 Sales Dashboard")
